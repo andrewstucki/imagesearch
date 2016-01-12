@@ -1,0 +1,28 @@
+{
+  "name": "imagesearch",
+  "version": "1.0.0",
+  "description": "imagesearch api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "git push heroku master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewstucki/imagesearch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewstucki/imagesearch/issues"
+  },
+  "homepage": "https://github.com/andrewstucki/imagesearch#readme",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "kerberos": "0.0.17",
+    "mongoose": "^4.3.5",
+    "superagent": "^1.6.1",
+    "underscore": "^1.8.3"
+  }
+}
